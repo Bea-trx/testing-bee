@@ -1,0 +1,1346 @@
+@media (min-width: 1271px){
+    body{
+        margin: 0;  
+      }
+      
+      .general-container{
+          display: flex;
+          flex-direction: column;
+      }
+      
+      .header-container{
+          background-color: rgb(41, 22, 3);
+          position: relative;
+          display: flex;
+          flex-direction: column;
+          padding-top: 48px;
+          padding-bottom: 150px;
+         
+      }
+      
+      .header{
+          display: flex;
+          flex-direction: row;
+          margin-left: 65px;
+          margin-right: 200px;
+          justify-content: space-between;
+          align-items: center;
+          
+          
+      }
+      
+      .coffee-logo{
+          width: 130px;
+          
+      }
+      
+      .coffee-pic{
+          width: 100%;
+          min-width: 110px;
+      }
+      
+      .nav{
+          background-color: rgb(59, 32, 13);
+          color: white;
+          height: 35px;
+          border-radius: 6px;
+          display: flex;
+          flex-direction: row;
+          gap: 20px;
+          align-items: center;
+          margin-left: 130px;
+          padding: 2px 4px;
+          font-size: 20px;
+      }
+      
+      .nav-links{
+          color: white;
+          text-decoration: none;
+      }
+      
+      .nav-container{
+          visibility: hidden;
+      }
+      
+      
+      .space{
+          visibility: hidden;
+          width: 150px;
+      }
+      
+      
+      .absolute-container{
+          position: absolute;
+          right: 0;
+          top: 0;
+          bottom: 0;
+      }
+          
+      
+      .absolute-img{
+          width: 100%;
+      }
+      
+      .motto{
+          
+          display: inline-block;
+          color: white;
+          margin-left: 150px;
+          margin-bottom: 10px;
+          
+      }
+      
+      
+      .subheading{
+          font-family: Lobster, Arial;  
+          font-size: 30px;
+          margin: 0;
+      }
+      
+      .motto-heading{
+          font-size: 65px;
+          font-family: pompiere, Arial;
+          margin: 0;
+      }
+      
+      
+      .about-container{
+          background-color: rgb(219, 188, 161);
+          flex: 1;
+          display: grid;
+          grid-template-columns: 350px 1fr;
+          column-gap: 200px;
+          padding: 40px 70px;
+      }
+      
+      .coffee-container{
+          width: 450px;
+      }
+      
+      .coffee-img{
+          width: 100%;
+      }
+      
+      .about-coffee{
+          font-family: Arial;
+          font-size: 18px;
+          color: rgb(56, 27, 7);
+      }
+      
+      .about-header{
+          font-size: 45px;
+          font-weight: bolder;
+          margin-bottom: 8px;
+          margin-top: 8px;
+      }
+      
+      .about-subheader{
+          font-size: 30px;
+          font-weight: lighter;
+          margin-top: 0;
+      }
+      
+      .read-button{
+          background-color: rgb(31, 15, 4);
+          color: white;
+          width: 200px;
+          height: 56px;
+          border-radius: 5px;
+          border-style: none;
+          font-size: 18px;
+      }
+      
+      
+      .reviews-container{
+          background-color: #655546;
+          flex: 1;
+          padding-top: 40px;
+          padding-bottom: 80px;
+      }
+      
+      .review-header{
+          display: flex;
+          flex-direction: row;
+          justify-content: center;
+          align-items: center;
+          font-size: 42px;
+          font-weight: bold;
+          color: white;
+          font-family: Montserrat, sans-serif;
+      }
+      
+      .review-subheader{
+          display: flex;
+          justify-content: center;
+          color: white;
+          font-size: 28px;
+          font-family: poppins, sans-serif;
+          margin-bottom: 30px;
+      }
+      
+      .review-box-container{
+          
+          display: grid;
+          grid-template-columns: 1fr 1fr 1fr;
+          column-gap: 30px;
+          padding-left: 150px;
+          padding-right: 150px;
+          
+      }
+      
+      .box-content{
+          margin-bottom: 0;
+          margin-left: 15px;
+          margin-right: 15px;
+          height: 120px;
+          line-height: 24px;
+          font-family: inter, serif;
+          font-size: 15px;
+          
+          
+      }
+      
+      .review-author{
+          font-family: sans-serif;
+          font-size: 14px;
+          font-weight: bold;
+          color: #0a424f;
+      }
+      
+      .review-box1{
+          background-color: rgb(219, 188, 161);
+          border-radius: 8px;
+          text-align: center;
+          box-shadow: 2px 2px 2px rgb(53, 52, 52);
+      }
+      
+      .review-box2{
+          background-color: rgb(219, 188, 161);
+          border-radius: 8px;
+          text-align: center;
+          box-shadow: 2px 2px 2px rgb(53, 52, 52);
+      }
+      
+      .review-box3{
+          background-color: rgb(219, 188, 161);
+          border-radius: 8px;
+          text-align: center;
+          box-shadow: 2px 2px 2px rgb(53, 52, 52);
+          
+      }
+      
+      
+      
+      .contactus-container{
+          background-color: rgb(41, 22, 0);
+          flex: 1;
+          display: grid;
+          grid-template-columns: 1fr 1fr 1fr;
+          column-gap: 35px;
+          padding: 50px 150px;
+      } 
+      
+      .head{
+          font-size: 28px;
+          color: white;
+          font-family: inter, sans-serif;
+          font-weight: bold;
+          margin-bottom: 5px;
+      }
+      
+      .subhead{
+          font-size: 21px;
+          color: rgb(101, 85, 70); 
+          font-family: inter, sans-serif;
+          margin-top: 0;
+      }
+      
+      .form{
+          display: grid;
+          grid-template-rows: 1fr 1fr 1fr;
+          row-gap: 10px;
+          
+      }
+      
+      .input1{
+          background-color: #e5e7eb;
+          font-family: inter, sans-serif;
+          border-style: none;
+          padding: 10px 14px;
+          width: 300px;
+          height: 18px;
+          border-radius: 4px;
+          font-size: 14px;
+      }
+      
+      .input2{
+          background-color: #e5e7eb;
+          font-family: inter, sans-serif;
+          border-style: none;
+          padding: 10px 14px;
+          width: 300px;
+          height: 36px;
+          border-radius: 4px;
+          font-size: 14px;
+          
+      }
+      
+      .submit{
+          background-color: #dbbca1;
+          padding: 10px 14px;
+          width: 120px;
+          border-style: none;
+          border-radius: 5px;
+          font-size: 15px;
+          margin-top: 0;
+          cursor: pointer;
+      }
+      
+      .input1:focus,
+      .input2:focus{
+          background-color: white;
+          outline: none;
+      }
+      
+      .contact-links{
+          color: white;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          padding-top: 28px;
+          
+      }
+      .sitemap{
+          font-size: 28px;
+          font-weight: bold;
+          font-family: inter, sans-serif;
+          margin-bottom: 8px;
+      }
+      
+      .all-pages{
+          font-size: 20px;
+          font-family: inter, sans-serif;
+          color: rgb(101, 85, 70);
+          margin-bottom: 17px;
+      }
+      
+      .links{
+          margin-left: 0;
+          padding-left: 0;
+          line-height: 30px;
+          font-size: 20px;
+          font-family: inter, sans-serif;
+      }
+      
+      
+      .contact-info{
+          display: flex;
+          flex-direction: column;
+          gap: 18px;
+          padding-top: 27px;
+          padding-left: 30px;
+          color: white;
+      }
+      
+      .contact-logo{
+         width: 130px;
+      }
+      
+      .contact-logo-img{
+          width: 100%;
+      }
+      
+      .contact-call{
+          display: flex;
+          gap: 14px;
+          align-items: center;
+          color: rgb(101, 85, 70);
+          font-size: 20px;
+          font-family: inter, sans-serif;
+      }
+      
+      .contact-email{
+          display: flex;
+          align-items: center;
+          gap: 14px;
+          color: rgb(101, 85, 70);
+          font-size: 22px;
+          font-family: inter, sans-serif;
+      }
+      
+      .copyright-container{
+          background-color: rgb(219, 188, 161);
+          font-family: inter, sans-serif;
+          font-size: 14px;
+          padding: 0;
+          justify-items: center;
+      }
+      
+}
+
+@media (max-width: 1270px){
+    body{
+    margin: 0;
+}
+
+.general-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.header-container{
+    background-color: rgb(41, 22, 3);
+    
+    display: flex;
+    flex-direction: column;
+    padding-top: 48px;
+    padding-bottom: 0px;
+    padding-right: 0px;
+   
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    margin-left: 65px;
+    margin-right: 0px;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    
+}
+
+.coffee-logo{
+    width: 130px;
+    
+}
+
+.coffee-pic{
+    width: 100%;
+    min-width: 110px;
+}
+
+.nav{
+    background-color: rgb(59, 32, 13);
+    color: white;
+    height: 53px;
+    width: 500px;
+    border-radius: 6px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 60px;
+    padding: 10px 4px;
+    font-size: 20px;
+    flex-shrink: 0;
+}
+
+.nav-links{
+    color: white;
+    text-decoration: none;
+}
+
+.space{
+    
+    width: 150px;
+}
+
+
+.absolute-container{
+    width: 460px;
+    height: 76px;
+    display: none;
+}
+
+.absolute-img{
+    position: absolute;
+    width: 100%;
+    top: 0;
+    bottom: 0;
+    display: none;
+    
+    
+    
+}
+
+.motto{
+    
+    display: inline-block;
+    color: white;
+    margin-left: 150px;
+    margin-bottom: 20px;
+    margin-top: 100px;
+    width: 500px;
+    
+}
+
+
+.subheading{
+    font-family: Lobster, Arial;  
+    font-size: 28px;
+    margin: 0;
+}
+
+.motto-heading{
+    font-size: 55px;
+    font-family: pompiere, Arial;
+    margin: 0;
+}
+
+
+.about-container{
+    background-color: rgb(219, 188, 161);
+    flex: 1;
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    column-gap: 140px;
+    padding: 40px 70px;
+    padding-right: 10px;
+}
+
+.coffee-container{
+    width: 300px;
+}
+
+.coffee-img{
+    width: 100%;
+}
+
+.about-coffee{
+    font-family: inter, sans-serif;
+    font-size: 18px;
+    color: rgb(56, 27, 7);
+}
+
+.about-header{
+    font-weight: poppins, sans-serif;
+    font-size: 45px;
+    font-weight: bolder;
+    margin-bottom: 8px;
+}
+
+.about-subheader{
+    font-size: 30px;
+    font-weight: 400;
+    margin-top: 0;
+}
+
+.read-button{
+    background-color: rgb(31, 15, 4);
+    color: white;
+    width: 150px;
+    height: 56px;
+    border-radius: 5px;
+    border-style: none;
+    font-size: 18px;
+}
+
+
+.reviews-container{
+    background-color: #655546;
+    flex: 1;
+    padding-top: 40px;
+    padding-bottom: 80px;
+}
+
+.review-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 42px;
+    font-weight: bold;
+    color: white;
+    font-family: Montserrat, sans-serif;
+}
+
+.review-subheader{
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 28px;
+    font-family: poppins, sans-serif;
+    margin-bottom: 30px;
+}
+
+.review-box-container{
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 30px;
+    row-gap: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
+    
+}
+
+.box-content{
+    margin-bottom: 0;
+    margin-left: 15px;
+    margin-right: 15px;
+    height: 120px;
+    line-height: 24px;
+    font-family: inter, serif;
+    font-size: 15px;
+    
+    
+}
+
+.review-author{
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    color: #0a424f;
+}
+
+.review-box1{
+    background-color: rgb(219, 188, 161);
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 2px 2px 2px rgb(53, 52, 52);
+}
+
+.review-box2{
+    background-color: rgb(219, 188, 161);
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 2px 2px 2px rgb(53, 52, 52);
+}
+
+.review-box3{
+    background-color: rgb(219, 188, 161);
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 2px 2px 2px rgb(53, 52, 52);
+    
+}
+
+
+
+.contactus-container{
+    background-color: rgb(41, 22, 0);
+    flex: 1;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 35px;
+    padding: 50px 150px;
+} 
+
+.head{
+    font-size: 28px;
+    color: white;
+    font-family: inter, sans-serif;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.subhead{
+    font-size: 21px;
+    color: rgb(101, 85, 70); 
+    font-family: inter, sans-serif;
+    margin-top: 0;
+}
+
+.form{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    row-gap: 10px;
+    
+}
+
+.input1{
+    background-color: #e5e7eb;
+    font-family: inter, sans-serif;
+    border-style: none;
+    padding: 10px 14px;
+    width: 300px;
+    height: 18px;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.input2{
+    background-color: #e5e7eb;
+    font-family: inter, sans-serif;
+    border-style: none;
+    padding: 10px 14px;
+    width: 300px;
+    height: 36px;
+    border-radius: 4px;
+    font-size: 14px;
+    
+}
+
+.submit{
+    background-color: #dbbca1;
+    padding: 10px 14px;
+    width: 120px;
+    border-style: none;
+    border-radius: 5px;
+    font-size: 15px;
+    margin-top: 0;
+    cursor: pointer;
+}
+
+.input1:focus,
+.input2:focus{
+    background-color: white;
+    outline: none;
+}
+
+.contact-links{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 28px;
+    
+}
+.sitemap{
+    font-size: 28px;
+    font-weight: bold;
+    font-family: inter, sans-serif;
+    margin-bottom: 8px;
+}
+
+.all-pages{
+    font-size: 20px;
+    font-family: inter, sans-serif;
+    color: rgb(101, 85, 70);
+    margin-bottom: 17px;
+}
+
+.links{
+    margin-left: 0;
+    padding-left: 0;
+    line-height: 30px;
+    font-size: 20px;
+    font-family: inter, sans-serif;
+}
+
+
+.contact-info{
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    padding-top: 27px;
+    padding-left: 30px;
+    color: white;
+}
+
+.contact-logo{
+   width: 130px;
+}
+
+.contact-logo-img{
+    width: 100%;
+}
+
+.contact-call{
+    display: flex;
+    gap: 14px;
+    align-items: center;
+    color: rgb(101, 85, 70);
+    font-size: 20px;
+    font-family: inter, sans-serif;
+}
+
+.contact-email{
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    color: rgb(101, 85, 70);
+    font-size: 22px;
+    font-family: inter, sans-serif;
+}
+
+.copyright-container{
+    background-color: rgb(219, 188, 161);
+    font-family: inter, sans-serif;
+    font-size: 14px;
+    padding: 0;
+    justify-items: center;
+}
+}
+
+
+
+@media (max-width: 990px){
+
+    .nav-links{
+        color: white;
+        text-decoration: none;
+    }
+
+
+    .contactus-container{
+        background-color: rgb(41, 22, 0);
+        flex: 1;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 35px;
+        row-gap: 20px;
+        padding: 50px 150px;
+        padding-left: 30px;
+    } 
+    
+    .head{
+        font-size: 28px;
+        color: white;
+        font-family: inter, sans-serif;
+        font-weight: bold;
+        margin-bottom: 5px;
+    }
+    
+    .subhead{
+        font-size: 21px;
+        color: rgb(101, 85, 70); 
+        font-family: inter, sans-serif;
+        margin-top: 0;
+    }
+    
+    .form{
+        display: grid;
+        grid-template-rows: 1fr 1fr 1fr;
+        row-gap: 10px;
+        
+    }
+    
+    .input1{
+        background-color: #e5e7eb;
+        font-family: inter, sans-serif;
+        border-style: none;
+        padding: 10px 14px;
+        width: 400px;
+        height: 18px;
+        border-radius: 4px;
+        font-size: 14px;
+    }
+    
+    .input2{
+        background-color: #e5e7eb;
+        font-family: inter, sans-serif;
+        border-style: none;
+        padding: 10px 14px;
+        width: 400px;
+        height: 36px;
+        border-radius: 4px;
+        font-size: 14px;
+        
+    }
+    
+    .submit{
+        background-color: #dbbca1;
+        padding: 10px 14px;
+        width: 120px;
+        border-style: none;
+        border-radius: 5px;
+        font-size: 15px;
+        margin-top: 0;
+        cursor: pointer;
+    }
+    
+    .input1:focus,
+    .input2:focus{
+        background-color: white;
+        outline: none;
+    }
+    
+    .contact-links{
+        color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 28px;
+        
+    }
+    .sitemap{
+        font-size: 28px;
+        font-weight: bold;
+        font-family: inter, sans-serif;
+        margin-bottom: 8px;
+    }
+    
+    .all-pages{
+        font-size: 20px;
+        font-family: inter, sans-serif;
+        color: rgb(101, 85, 70);
+        margin-bottom: 17px;
+    }
+    
+    .links{
+        margin-left: 0;
+        padding-left: 0;
+        line-height: 30px;
+        font-size: 20px;
+        font-family: inter, sans-serif;
+    }
+    
+    
+    .contact-info{
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+        padding-top: 27px;
+        padding-left: 0px;
+        color: white;
+    }
+    
+    .contact-logo{
+       width: 170px;
+    }
+    
+    .contact-logo-img{
+        width: 100%;
+    }
+    
+    .contact-call{
+        display: flex;
+        gap: 14px;
+        align-items: center;
+        color: rgb(101, 85, 70);
+        font-size: 20px;
+        font-family: inter, sans-serif;
+    }
+    
+    .contact-email{
+        display: flex;
+        align-items: center;
+        gap: 14px;
+        color: rgb(101, 85, 70);
+        font-size: 22px;
+        font-family: inter, sans-serif;
+    }
+}
+
+@media (max-width: 760px){
+    body{
+        
+    }
+    
+    .general-container{
+        display: flex;
+        flex-direction: column;
+        
+        
+    }
+    
+    .header-container{
+        background-color: rgb(41, 22, 3);
+        padding-right: 0;
+        display: flex;
+        flex-direction: column;
+        padding-top: 30px;
+        padding-bottom: 36px;
+        
+       
+    }
+    
+    .header{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        
+        
+    }
+    
+    .coffee-logo{
+        width: 60%;
+        
+    }
+    
+    .coffee-pic{
+        width: 100%;
+        min-width: 110px;
+        
+    }
+    
+    .nav{
+        display: flex;
+        flex-direction: column;
+        justify-items: space-between;
+        width: 30%;
+        height: 20%;
+    }
+
+    .nav-links{
+        color: white;
+        text-decoration: none;
+    }
+
+    .nav-container{
+        background-color: rgb(111, 68, 54);
+        width: 300px;
+        position: fixed;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        
+    }
+    
+    .nav-options{
+        display: flex;
+        flex-direction: column;
+        padding-left: 100px;
+        gap: 40px;
+        font-size: 22px;
+        font-family: inter, sans-serif;
+        color: white;
+    }
+    
+    .nav-options div{
+        cursor: pointer;
+    }
+
+    .close-button-container{
+        display: flex;
+        justify-content: end;
+        padding-top: 40px;
+        padding-right: 55px;
+        padding-bottom: 40px;
+    }
+    
+    .close-button{
+        cursor: pointer;
+        background: none;
+        border-style: none;
+        color: black;
+        font-size: 18px;
+        font-family: inter, sans-serif;
+        font-weight: bold;
+    }
+
+    .close-button:focus{
+        background-color: green;
+    }
+
+    .absolute-container{
+        width: 460px;
+        height: 76px;
+        display: none;
+    }
+    
+    .absolute-img{
+        position: absolute;
+        width: 100%;
+        top: 0;
+        bottom: 0;
+        display: none;
+       
+        
+        
+    }
+    
+    .motto{
+        justify-items: center;
+        display: inline-block;
+        color: white;
+        margin-left: 50px;
+        margin-bottom: 50px;
+        margin-top: 10px;
+        width: 88%;
+    }
+    
+    
+    .subheading{
+        font-family: Lobster, Arial;  
+        font-size: 26px;
+        margin: 0;
+    }
+    
+    
+    .motto-heading{
+        font-size: 55px;
+        font-family: pompiere, Arial;
+        margin: 0;
+    }
+    
+    
+    .about-container{
+        background-color: rgb(219, 188, 161);
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+
+        padding: 40px 20px;
+    }
+
+    .coffee-container{
+        width: 100%;
+    }
+
+    .coffee-img{
+        width: 100%;
+    }
+    
+    
+    
+    .about-coffee{
+        margin: 0;
+        font-size: 18px;
+        color: rgb(56, 27, 7);
+        flex: 1;
+        
+    }
+    
+    .about-header{
+        font-family: poppins, sans-serif;
+        font-size: 30px;
+        font-weight: bolder;
+        margin-bottom: 0;
+    }
+    
+    .about-subheader{
+        font-family: poppins, sans-serif;
+        font-size: 28px;
+        font-weight: 300;
+        margin-top: 0;
+    }
+    
+    .read-button{
+        background-color: rgb(15, 8, 3);
+        color: white;
+        width: 150px;
+        height: 56px;
+        border-radius: 5px;
+        border-style: none;
+        font-size: 18px;
+    }
+    
+    
+    .reviews-container{
+        background-color: #655546;
+        flex: 1;
+        padding-top: 40px;
+        padding-bottom: 80px;
+    }
+    
+    .review-header{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        font-size: 42px;
+        font-weight: bold;
+        color: white;
+        font-family: Montserrat, sans-serif;
+    }
+    
+    .review-subheader{
+        display: flex;
+        justify-content: center;
+        color: white;
+        font-size: 28px;
+        font-family: poppins, sans-serif;
+        margin-bottom: 30px;
+    }
+    
+    .review-box-container{
+    
+        display: grid;
+        grid-template-columns: 1fr;
+        column-gap: 30px;
+        row-gap: 30px;
+        padding-left: 15px;
+        padding-right: 15px;
+        
+    }
+    
+    
+    .box-content{
+        margin-bottom: 0;
+        margin-left: 15px;
+        margin-right: 15px;
+        height: 60px;
+        line-height: 24px;
+        font-family: inter, serif;
+        font-size: 15px;
+        
+        
+    }
+    
+    .review-author{
+        font-family: sans-serif;
+        font-size: 14px;
+        font-weight: bold;
+        color: #0a424f;
+    }
+    
+    .review-box1{
+        background-color: rgb(219, 188, 161);
+        border-radius: 8px;
+        text-align: center;
+        box-shadow: 2px 2px 2px rgb(53, 52, 52);
+    }
+    
+    .review-box2{
+        background-color: rgb(219, 188, 161);
+        border-radius: 8px;
+        text-align: center;
+        box-shadow: 2px 2px 2px rgb(53, 52, 52);
+    }
+    
+    .review-box3{
+        background-color: rgb(219, 188, 161);
+        border-radius: 8px;
+        text-align: center;
+        box-shadow: 2px 2px 2px rgb(53, 52, 52);
+        
+    }
+    
+    
+    
+    .contactus-container{
+        background-color: rgb(41, 22, 0);
+        flex: 1;
+        display: grid;
+        grid-template-columns: 1fr;
+        column-gap: 35px;
+        justify-items: left;
+        padding-top: 50px;
+        padding-left: 25px;
+        padding-right: 20px;
+    } 
+
+    .contact-form{
+        width: 93%;
+    }
+    
+    .head{
+        font-size: 28px;
+        color: white;
+        font-family: inter, sans-serif;
+        font-weight: bold;
+        margin-bottom: 5px;
+    }
+    
+    .subhead{
+        font-size: 21px;
+        color: rgb(101, 85, 70); 
+        font-family: inter, sans-serif;
+        margin-top: 0;
+    }
+    
+    .form{
+        display: grid;
+        grid-template-columns: 1fr;
+        
+        
+    }
+    
+    .input1{
+        background-color: #e5e7eb;
+        font-family: inter, sans-serif;
+        border-style: none;
+        padding: 10px 14px;
+        width: 100%;
+        height: 18px;
+        border-radius: 4px;
+        font-size: 14px;
+    }
+    
+    .input2{
+        background-color: #e5e7eb;
+        font-family: inter, sans-serif;
+        border-style: none;
+        padding: 10px 14px;
+        width: 100%;
+        height: 38px;
+        border-radius: 4px;
+        font-size: 14px;
+        
+    }
+    
+    .submit{
+        background-color: #dbbca1;
+        padding: 10px 14px;
+        width: 120px;
+        border-style: none;
+        border-radius: 5px;
+        font-size: 15px;
+        margin-top: 0;
+        cursor: pointer;
+    }
+    
+    .input1:focus,
+    .input2:focus{
+        background-color: white;
+        outline: none;
+    }
+    
+    .contact-links{
+        color: white;
+        display: flex;
+        flex-direction: column;
+        padding-top: 28px;
+    
+        
+    }
+    .sitemap{
+        font-size: 28px;
+        font-weight: bold;
+        font-family: inter, sans-serif;
+        margin-bottom: 8px;
+    }
+    
+    .all-pages{
+        font-size: 20px;
+        font-family: inter, sans-serif;
+        color: rgb(101, 85, 70);
+        margin-bottom: 17px;
+    }
+    
+    .links{
+        margin-left: 0;
+        padding-left: 0;
+        line-height: 30px;
+        font-size: 20px;
+        font-family: inter, sans-serif;
+    }
+    
+    
+    .contact-info{
+        display: flex;
+        flex-direction: column;
+        gap: 18px;
+        padding-top: 27px;
+        padding-left: 30px;
+        color: white;
+    }
+    
+    .contact-logo{
+       width: 130px;
+    }
+    
+    .contact-logo-img{
+        width: 100%;
+    }
+    
+    .contact-call{
+        display: flex;
+        gap: 14px;
+        align-items: center;
+        color: rgb(101, 85, 70);
+        font-size: 20px;
+        font-family: inter, sans-serif;
+    }
+    
+    .contact-email{
+        display: flex;
+        align-items: center;
+        gap: 14px;
+        color: rgb(101, 85, 70);
+        font-size: 22px;
+        font-family: inter, sans-serif;
+    }
+    
+    .copyright-container{
+        background-color: rgb(219, 188, 161);
+        font-family: inter, sans-serif;
+        font-size: 14px;
+        padding: 0;
+        justify-items: center;
+    }
+
+}
